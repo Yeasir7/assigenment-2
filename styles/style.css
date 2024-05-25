@@ -7,8 +7,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.universal-btn{
+    color: #FFF;
+    fborder-radius: 8px;
+    background: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
 
 /* header style */
+/* nav style */
 header{
     max-width: 1170px;
     margin: 0 auto;
@@ -55,4 +63,50 @@ nav .menu-btn i{
     font-size: 25px;
     cursor: pointer;
     display: none;
+}
+/* banner style */
+.banner-container{
+    background-image: url(../Images/header.png);
+    text-align: center;
+    padding: 108px 185px;
+    margin-top: 46px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    width: 676px;
+    margin: 0 auto;
+}
+.banner-text h1{
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-text p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+form{
+    width: 768px;
+    margin-top: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+.form{
+    padding: 17px;
+    display: flex;
+    gap: 24px;
+}
+
+/* .form input,
+.form select,
+.form button {
+  margin-right: 6px; 
+} */
+form input,select,button{
+    width: 174px;
+    height: 52px;
 }
