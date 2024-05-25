@@ -101,11 +101,6 @@ form{
     gap: 24px;
 }
 
-/* .form input,
-.form select,
-.form button {
-  margin-right: 6px; 
-} */
 form input,select,button{
     width: 174px;
     height: 52px;
