@@ -163,6 +163,51 @@ form input,select,button{
     height: 100%;
 }
 /* Destination */
+.destination{
+    max-width: 1170px;
+    margin: 100px auto;
+    text-align: center;
+}
+.destination p{
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.first-row, .second-row, .third-row{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.second-row{
+    margin: 24px 0;
+}
+.first-row img{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    object-fit: cover;
+}
+.second-row img{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    object-fit: cover;
+}
+.third-row img{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    object-fit: cover;
+}
+.image-item{
+    position: relative;
+}
+.image-item .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
 
 /* choose */
 .choose{

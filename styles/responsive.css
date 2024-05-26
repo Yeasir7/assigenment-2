@@ -72,9 +72,30 @@
         width: 100%;
     }
 /* Destination */
-
-/* choose */
-
+.destination{
+    width: 100%;
+    margin: 24px auto;
+}
+.first-row, .second-row, .third-row{
+    flex-direction: column;
+}
+.first-row img{
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.second-row img{
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+}
+.third-row img{
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+}
 
 /* deals */
 
