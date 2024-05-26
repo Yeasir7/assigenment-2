@@ -12,6 +12,11 @@
     font-size: 40px;
     font-weight: 800;
 }
+.universal-heading-inside{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 .universal-text{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -160,12 +165,93 @@ form input,select,button{
 /* Destination */
 
 /* choose */
+.choose{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.choose h1,p{
+    text-align: center;
+}
+.choose .choose-p{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
+}
+.card{
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+}
+.card h2{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.card-one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-two{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-three{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.card img{
+    width: 64px;
+    height: 64px;
+}
 
 /* deals */
 
 /* simple */
 
 /* newsletter */
+.newsletter{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.newsletter hr{
+    margin: 24px 0;
+}
+.newsletter p{
+    margin-top: 16px;
+}
+.newsletter-text{
+    width: 48%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newsletter-img{
+    width: 48%;
+}
+.newsletter-img img{
+    width: 100%;
+}
+.newsletter-text form input,button{
+    display: block;
+    width: 60%;
+    height: 52px; 
+}
+#input{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
 
 /* footer */
 footer{

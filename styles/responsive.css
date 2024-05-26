@@ -75,11 +75,30 @@
 
 /* choose */
 
+
 /* deals */
 
 /* simple */
 
 /* newsletter */
+.newsletter{
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.newsletter-text{
+    width: 100%;
+}
+.newsletter-img{
+    width: 100%;
+}
+.newsletter-text form input,button{
+    width: 100%;
+}
+.newsletter-text form button{
+    padding: 14px 96px;
+}
 
 /* footer */
 footer{
