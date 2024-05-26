@@ -2,6 +2,9 @@
     body{
         margin: 10px;
     }
+    .universal-btn{
+        width: auto;
+    }
     /* nav responsive */
     nav .menu-btn i{
         display: block;
@@ -68,4 +71,15 @@
         margin-top: 24px;
         width: 100%;
     }
+/* Destination */
+
+/* choose */
+
+/* deals */
+
+/* simple */
+
+/* newsletter */
+
+/* footer */
 }
