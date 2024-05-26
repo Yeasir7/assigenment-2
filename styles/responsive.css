@@ -82,4 +82,25 @@
 /* newsletter */
 
 /* footer */
+footer{
+    width: 100%;
+}
+.footer-container{
+    width: 100%;
+    padding: 30px;
+}
+.upper-heading{
+    padding-left: 20px;
+    padding-top: 33px;
+}
+.footer-container hr{
+    margin: 33px 0;
+}
+
+.lower-footer{
+    padding-bottom: 30px;
+}
+.logo{
+    margin-top: 16px;
+}
 }

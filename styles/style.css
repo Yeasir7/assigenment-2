@@ -168,11 +168,14 @@ form input,select,button{
 /* newsletter */
 
 /* footer */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
 .footer-container{
     max-width: 769px;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .footer-container hr{
     margin: 50px 0;
@@ -183,18 +186,18 @@ form input,select,button{
     padding-bottom: 15px;
 }
 .upper-footer{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .lower-footer{
     padding-bottom: 110px;
-    border: 2px sold greenyellow;
+    /* border: 2px sold greenyellow; */
 }
 .logo{
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     margin-top: 33px;
 
 }
 .fa-brands{
-    font: 2000px;
+    font-size: 25px;
     margin-right: 24px;
 }
