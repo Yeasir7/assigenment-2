@@ -7,12 +7,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.universal-heading{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.universal-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
 .universal-btn{
     color: #FFF;
-    fborder-radius: 8px;
+    border-radius: 8px;
     background: #FF5400;
     font-size: 20px;
     font-weight: 800;
+    border: none;
 }
 
 /* header style */
@@ -104,4 +115,44 @@ form{
 form input,select,button{
     width: 174px;
     height: 52px;
+}
+.banner-btn{
+    font-size: 16px;
+}
+/* popular style */
+.popular{
+    width: 1170px;
+    margin: 0 auto;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.popular-text{
+    /* border: 2px solid red; */
+    width: 48%;
+}
+.popular-text p{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.popular-text ul .second{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.popular-text ul li{
+    margin-left: 17px;
+}
+.popular-text button{
+    padding: 16px 30px;
+}
+.popular-img{
+    /* border: 2px solid black; */
+    width: 48%;
+}
+.popular-img img{
+    width: 100%;
+    height: 100%;
 }
