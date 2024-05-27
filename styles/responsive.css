@@ -149,7 +149,6 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 .tour-text h5{
     margin-bottom: 10px;
 }
-}
 
 /* simple */
 .simple{
@@ -216,4 +215,5 @@ footer{
 }
 .logo{
     margin-top: 16px;
+}
 }

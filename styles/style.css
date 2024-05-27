@@ -395,7 +395,7 @@ form button{
     width: 48%;
     position: relative;
 }
-.newsletter-img img{
+.newsletter .newsletter-img img{
     width: 100%;
     height: 100%;
 }
