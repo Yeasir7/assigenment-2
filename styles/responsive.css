@@ -118,20 +118,37 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
     height: 297px;
     margin-top: 150px;
     margin-left: 0;
-    padding: 20px;
-    overflow: scroll;
-    mask-repeat: no-repeat;
+    padding: 15px;
 }
 .tour-text button{
     width: 130px;
     height: 40px;
 }
 .tour-icons{
-    flex-wrap: wrap;
-    gap: 20px;
+    /* flex-wrap: wrap; */
+    gap: 20px; 
 }
 .icons{
     gap: 0;
+}
+.tour-text p {
+    position: relative;
+    overflow: hidden;
+    max-height: 2.6em; 
+    line-height: 1.2em;
+}
+
+.tour-text p::after {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding-left: 5px; 
+}
+.tour-text h5{
+    margin-bottom: 10px;
+}
 }
 
 /* simple */
@@ -199,5 +216,4 @@ footer{
 }
 .logo{
     margin-top: 16px;
-}
 }
