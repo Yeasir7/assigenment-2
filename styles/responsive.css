@@ -55,7 +55,13 @@
         width: 100%;
         margin-top: 15px;
     }
-    form input,select,button{
+    form input{
+        width: 100%;
+    }
+    form select{
+        width: 100%;
+    }
+    form button{
         width: 100%;
     }
     /* popular responsive */
@@ -100,7 +106,17 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 /* deals */
 
 /* simple */
-
+.simple{
+    flex-direction: column;
+    margin-top: 24px;
+}
+.simple-text{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.simple-img{
+    width: 100%;
+}
 /* newsletter */
 .newsletter{
     flex-direction: column;
@@ -113,6 +129,18 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 }
 .newsletter-img{
     width: 100%;
+}
+.save{
+    width: 214.023px;
+    height: 79.268px;
+    bottom: 20%;
+    left: 35%;
+}
+.save h3{
+    font-size: 15px;
+}
+.save h1{
+    font-size: 21px;
 }
 .newsletter-text form input,button{
     width: 100%;
