@@ -266,6 +266,69 @@ form button{
 }
 
 /* deals */
+.deals{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    height: auto;
+}
+.deals p{
+    margin: 24px 0;
+}
+.tour-container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 24px;
+}
+.tour{
+    background-image: url('../Images/Group39.png');
+    background-repeat: no-repeat;
+    padding: 56px;
+}
+.tour-text{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 500px;
+    padding: 50px;
+    text-align: left;
+    overflow: hidden;
+}
+.tour-text p{
+    text-align: left;
+}
+.tour-text h5{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.tour-text button{
+    width: 150px;
+    height: 52px;
+}
+.tour-icons{
+    display: flex;
+    gap: 50px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icons i{
+    color: #FF5400;
+}
+.second-tour{
+    background-image: url('../Images/Group40.png');
+}
+.second-tour-text{
+    margin-left: 0;
+}
 
 /* simple */
 .simple{
@@ -316,10 +379,10 @@ form button{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.newsletter hr{
+.newsletter .newsletter-text hr{
     margin: 24px 0;
 }
-.newsletter p{
+.newsletter .newsletter-text p{
     margin-top: 16px;
 }
 .newsletter-text{

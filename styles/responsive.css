@@ -104,6 +104,35 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 }
 
 /* deals */
+.deals{
+    width: 100%;
+    margin-top: 24px;
+}
+.tour{
+    padding: 16px;
+    width: 335px;
+    height: 500px;
+}
+.tour-text{
+    width: 303px;
+    height: 297px;
+    margin-top: 150px;
+    margin-left: 0;
+    padding: 20px;
+    overflow: scroll;
+    mask-repeat: no-repeat;
+}
+.tour-text button{
+    width: 130px;
+    height: 40px;
+}
+.tour-icons{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.icons{
+    gap: 0;
+}
 
 /* simple */
 .simple{
